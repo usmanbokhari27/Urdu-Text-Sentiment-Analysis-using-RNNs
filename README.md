@@ -20,7 +20,8 @@ Preprocessing is a crucial step in natural language processing (NLP) tasks as it
 3.	Lemmatization: Lemmatization is the process of reducing words to their base or root form, known as the lemma. This helps in reducing the dimensionality of the data by grouping together different forms of the same word. 
 4.	Tokenization using Spacy: Tokenization is the process of splitting text into smaller units, typically words or tokens. We used the Spacy library for tokenization, which provides robust support for various languages, including Urdu. This step is essential for breaking down text into manageable units for analysis.
 5.	Word2Vec Embeddings: Word2Vec is a popular technique for generating word embeddings, which are dense vector representations of words in a continuous vector space. These embeddings capture semantic relationships between words and are crucial for training deep learning models like neural networks. We generated word2vec embeddings to represent words in our text data, enabling the model to learn semantic similarities and patterns during training.
- 
+ ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/117f9625-3e24-4b3e-8b31-84fa13dbdd06)
+
 By performing these preprocessing steps, we ensure that the input data for our sentiment analysis model is clean, standardized, and structured in a way that facilitates effective learning and pattern recognition. This preprocessing pipeline lays the foundation for building accurate and robust sentiment analysis models on Urdu text.
 IV.	MODEL CREATION
 Embedding Layer:
@@ -38,6 +39,7 @@ Dropout layers are inserted after each dense layer with a dropout rate of 0.5 (5
 Output Layer:
 The final layer in the architecture is the output layer. It consists of a single neuron with a sigmoid activation function.
 The sigmoid activation function outputs a value between 0 and 1, representing the predicted probability that the input text belongs to the positive sentiment class (1) or negative sentiment class (0). A threshold can be applied to this probability to make binary sentiment predictions.    
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/a798e352-ff1e-41a8-af89-b0f5b82d8c05)
 
 V.	EXPERIMENTATION
 The experimentation phase of our study involved systematically testing and evaluating different neural network architectures to determine the most effective model for sentiment analysis on Urdu movie reviews. We explored the following architectures:
@@ -52,6 +54,7 @@ During experimentation, we varied several parameters to optimize model performan
 By systematically varying these parameters and evaluating the performance metrics (such as accuracy, F1 score, and training efficiency) for each architecture, we aimed to identify the most effective model configuration for sentiment analysis on Urdu movie reviews. This rigorous experimentation process ensures that our final model is well-tuned and optimized for the task at hand.
 
 VI.	RESULTS AND ANALYSIS
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/91b4671e-36fa-470a-8caa-f78d729463c5)
 			 
 •	In our study, we evaluated various neural network architectures for sentiment analysis on Urdu movie reviews. Among these architectures, the bidirectional GRU (Gated Recurrent Unit) model emerged as the top performer, demonstrating superior performance compared to other architectures. Here are the key findings from our analysis:
 •	Superior Performance: The bidirectional GRU model consistently outperformed other architectures in terms of multiple performance metrics, including validation accuracy, precision, recall and F1 score. These metrics are crucial for evaluating the model's ability to correctly classify sentiments in the reviews.
@@ -61,9 +64,15 @@ VI.	RESULTS AND ANALYSIS
 •	 Effectiveness for Urdu Text: The success of the bidirectional GRU model underscores its effectiveness specifically for sentiment analysis on Urdu text. Urdu, being a complex language with unique linguistic characteristics, benefits from architectures like bidirectional GRU that can capture contextual dependencies effectively from both past and future sequences.
 Overall, our results highlight the effectiveness of bidirectional GRU architectures for sentiment analysis on Urdu movie reviews. The combination of high accuracy, F1 score, and efficient training makes the bidirectional GRU model a promising choice for sentiment analysis tasks in languages like Urdu, where capturing nuanced sentiment nuances is essential. Below are the results of 
 1.	Bidirectional LSTM
-     
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/4183034d-f3b9-43af-997e-faec2c842764)
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/0ab58745-0da5-4ac0-8984-c7be2bff962a)
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/1bf6b877-0f77-4af9-912a-1d81a6b661ac)
+
 
 2.	Bidirectional GRU
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/af33d309-0b69-42d5-8d60-bb85b6e21648)
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/dfca3882-751b-4c9c-90b7-20a48477cbd0)
+![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/d336abe8-93bb-4c02-a3b5-59809e79b3cb)
 
 •	     
 
