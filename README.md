@@ -64,12 +64,16 @@ VI.	RESULTS AND ANALYSIS
 •	 Effectiveness for Urdu Text: The success of the bidirectional GRU model underscores its effectiveness specifically for sentiment analysis on Urdu text. Urdu, being a complex language with unique linguistic characteristics, benefits from architectures like bidirectional GRU that can capture contextual dependencies effectively from both past and future sequences.
 Overall, our results highlight the effectiveness of bidirectional GRU architectures for sentiment analysis on Urdu movie reviews. The combination of high accuracy, F1 score, and efficient training makes the bidirectional GRU model a promising choice for sentiment analysis tasks in languages like Urdu, where capturing nuanced sentiment nuances is essential. Below are the results of 
 1.	Bidirectional LSTM
+
+
 ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/4183034d-f3b9-43af-997e-faec2c842764)
 ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/0ab58745-0da5-4ac0-8984-c7be2bff962a)
 ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/1bf6b877-0f77-4af9-912a-1d81a6b661ac)
 
 
-2.	Bidirectional GRU
+3.	Bidirectional GRU
+
+
 ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/af33d309-0b69-42d5-8d60-bb85b6e21648)
 ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/dfca3882-751b-4c9c-90b7-20a48477cbd0)
 ![image](https://github.com/usmanbokhari27/Urdu-Text-Sentiment-Analysis-using-RNNs/assets/111877522/d336abe8-93bb-4c02-a3b5-59809e79b3cb)
